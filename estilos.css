@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3B67BF;
+    color: #261A18;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formulario {
+    width: 320px;
+    background: #7A98BF;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="nombre"] {
+    width: 100%;
+    background: none;
+    border: 2px solid orange;
+    border-radius: 2px;
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    margin-bottom: 20px;
+}
+
+input[type="password"] {
+    width: 100%;
+    background: none;
+    border: 2px solid orange;
+    border-radius: 2px;
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    background: none;
+    border: 2px solid orange;
+    border-radius: 2px;
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    margin-bottom: 20px;
+}
+
+select[class="seleccion"] {
+    width: 100%;
+    background: #3B67BF;
+    border: 2px solid orange;
+    border-radius: 2px;
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    margin-bottom: 20px;
+}
+
+input[type="phone"] {
+    width: 100%;
+    background: none;
+    border: 2px solid orange;
+    border-radius: 2px;
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background: goldenrod;
+    width: 120%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-boxs;
+    border: none;
+    cursor: pointer;
+    color: green;
+    font-size: 22px;
+}
+
+input[type="submit"]:hover {
+    background: yellow;
+    transition: .6s;
+}
