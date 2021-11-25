@@ -4,14 +4,14 @@
 }
 
 body {
-    background: #3B67BF;
+    background: yellowgreen;
     color: #261A18;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .formulario {
     width: 320px;
-    background: #7A98BF;
+    background: blueviolet;
     padding: 40px 20px;
     box-sizing: border-box;
     position: fixed;
